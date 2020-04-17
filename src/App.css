@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.rainbow-text {
+  background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* unvisited link */
+a:link {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+  text-decoration: none;
+}
